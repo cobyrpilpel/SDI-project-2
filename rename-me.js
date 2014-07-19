@@ -11,7 +11,7 @@ var rocketShip = "MSS. Steve";
 var survivingCrewNumber;
 var targetOne = "Pluto";
 var targetTwo = "Venus"
-var numberOfDummies = 10;
+var numberOfDummies = 20;
 var primaryTarget = "Pluto";
 var secondaryTarget = "Venus";
 
@@ -43,8 +43,8 @@ console.log("Let's test them just to be sure.")
 
 var testDummiesAvailable = function (testDummies){
 var yayForDummies = testDummies
-var numberOfDummies = 10
-    while (testDummies === true && numberOfDummies > 2)
+var numberOfDummies = 20
+    while (testDummies === true && numberOfDummies > 5)
     {numberOfDummies--;
     	console.log("While it is " + testDummies + " that we have available dummies we need to be sure they are up to the task.");
     	console.log("Let the tests commence!");
@@ -52,13 +52,27 @@ var numberOfDummies = 10
     	console.log("Well that one didn't make the cut. We have " + numberOfDummies + " remaining.");}
 console.log("We have found our dummies! These dummies have passed the tests and will fly this mission.")
 return yayForDummies ;}
+
  
  
 //NUMBER FUNCTION
 
-    
-    
-       
+var crewStillAlive = function (survivingCrewNumber)  {
+var survivedTheExplosion = survivingCrewNumber;
+console.log("The ship is going through an unplanned scientific explosion before it even leaves Mar's atmosphere! There are "  + survivingCrewNumber + " surviving crew members left on the ship!"){
+for(var survivedTheMission = 1;   survivedTheMission <= survivingCrewNumber;
+	survivedTheMission++)
+	{console.log("That could have gone better! " + survivedTheMission + " survived to live another day");}
+	return survivedTheExplosion};
+	
+//STRING FUNCTION     
         
-        
+var preferredDestinations = function (primaryTarget, secondaryTarget) {
+var reachableDestinations = primaryTarget " and " secondaryTarget;
+console.log("The " + spaceShip + " can reach " + reachableDestinations + " but we would prefer to reach " +primaryTarget+ );
+return reachableDestinations;};
 
+
+//OUTPUT
+
+console.log("The " + spaceShip + " will go to " + reachableDestinations + )
