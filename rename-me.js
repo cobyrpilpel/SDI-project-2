@@ -69,10 +69,10 @@ for(var survivedTheMission = 1;   survivedTheMission <= survivingCrewNumber;
         
 var preferredDestinations = function (primaryTarget, secondaryTarget) {
 var reachableDestinations = primaryTarget " and " secondaryTarget;
-console.log("The " + spaceShip + " can reach " + reachableDestinations + " but we would prefer to reach " +primaryTarget+ );
+console.log("The " + rocketShip + " can reach " + reachableDestinations + " but we would prefer to reach " +primaryTarget+ );
 return reachableDestinations;};
 
 
 //OUTPUT
 
-console.log("The " + spaceShip + " will go to " + reachableDestinations + )
+console.log("The " + rocketShip + " will go to " + reachableDestinations + )
