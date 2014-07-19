@@ -21,16 +21,17 @@ console.log("Welcome to MASA! Here at the Martian Air and Space Association ther
 
 //PROMPT
 
-var targetSelected = prompt("What planet will the " + rocketShip + " crash....... I MEAN land on? ", targetOne + " or " + targetTwo);
+//var targetSelected = prompt("What planet will the " + rocketShip + " crash....... I MEAN land on? ", targetOne + " or " + targetTwo);
 
 //PROCEDURE
 
 var targetPlanet = function (targetSelected, targetOne, targetTwo) {
-
 var destination = targetPlanet
-    if (targetSelected === targetOne || targetSelected === targetTwo) 
-    {console.log("The target you have chosen for" + rocketShip +" is a " + destination + ".");
-    } else {console.log("That isn't a good target. Who in their right mind would want to go there?"); };
+    if (targetSelected === targetOne || targetSelected === targetTwo) { 
+    	console.log("The target you have chosen for" + rocketShip +" is a " + destination + ".");} 
+else {
+console.log("That isn't a good target. Who in their right mind would want to go there?"); 
+};
  
  targetPlanet(targetSelected, targetOne, targetTwo)   
 
@@ -46,10 +47,10 @@ var yayForDummies = testDummies
 var numberOfDummies = 20
     while (testDummies === true && numberOfDummies > 5)
     {numberOfDummies--;
-    	console.log("While it is " + testDummies + " that we have available dummies we need to be sure they are up to the task.");
-    	console.log("Let the tests commence!");
-    	console.log("Was he supposed to explode like that?");
-    	console.log("Well that one didn't make the cut. We have " + numberOfDummies + " remaining.");}
+    console.log("While it is " + testDummies + " that we have available dummies we need to be sure they are up to the task.");
+    console.log("Let the tests commence!");
+    console.log("Was he supposed to explode like that?");
+    console.log("Well that one didn't make the cut. We have " + numberOfDummies + " remaining.");}
 console.log("We have found our dummies! These dummies have passed the tests and will fly this mission.")
 return yayForDummies ;}
 
@@ -59,7 +60,7 @@ return yayForDummies ;}
 
 var crewStillAlive = function (survivingCrewNumber)  {
 var survivedTheExplosion = survivingCrewNumber;
-console.log("The ship is going through an unplanned scientific explosion before it even leaves Mar's atmosphere! There are "  + survivingCrewNumber + " surviving crew members left on the ship!"){
+console.log("The ship is going through an unplanned scientific explosion before it even leaves Mar's atmosphere! There are "  + survivingCrewNumber + " surviving crew members left on the ship!");{
 for(var survivedTheMission = 1;   survivedTheMission <= survivingCrewNumber;
 	survivedTheMission++)
 	{console.log("That could have gone better! " + survivedTheMission + " survived to live another day");}
@@ -68,11 +69,13 @@ for(var survivedTheMission = 1;   survivedTheMission <= survivingCrewNumber;
 //STRING FUNCTION     
         
 var preferredDestinations = function (primaryTarget, secondaryTarget) {
-var reachableDestinations = primaryTarget " and " secondaryTarget;
-console.log("The " + rocketShip + " can reach " + reachableDestinations + " but we would prefer to reach " +primaryTarget+ );
+var reachableDestinations = primaryTarget + " and " + secondaryTarget;
+{console.log("The spacecraft can reach " + reachableDestinations + " the first target is preferable.");}
 return reachableDestinations;};
 
 
 //OUTPUT
 
-console.log("The " + rocketShip + " will go to " + reachableDestinations + )
+console.log("The spacecraft will go to " + reachableDestinations + " and hopefully arrive in one piece");
+console.log("We have enough dummies for the mission." + yayForDummies + " should be enough.");
+console.log("That mission was explosively scientific! Hopefully the " + survivedTheExplosion + " dummies will be able to add to the scientific discovery!");}}
